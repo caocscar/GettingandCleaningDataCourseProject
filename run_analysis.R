@@ -1,19 +1,19 @@
 # 1. Merges the training and the test sets to create one data set.
 
 # Read in training data
-setwd("C:/Users/caoa/Box Sync/coursera/Getting and Cleaning Data/UCI HAR Dataset/train")
+setwd(".UCI HAR Dataset/train")
 xtrain = read.table("X_train.txt", header=F, sep="")
 ytrain = read.table("y_train.txt", header=F, sep="", col.names="Activity_Code")
 subject_train = read.table("subject_train.txt", header=F, sep="", col.names="Subject")
 
 # Read in testing data
-setwd("C:/Users/caoa/Box Sync/coursera/Getting and Cleaning Data/UCI HAR Dataset/test")
+setwd("../test")
 xtest = read.table("X_test.txt", header=F, sep="")
 ytest = read.table("y_test.txt", header=F, sep="", col.names="Activity_Code")
 subject_test = read.table("subject_test.txt", header=F, sep="", col.names="Subject")
 
 # Read in column headers
-setwd("C:/Users/caoa/Box Sync/coursera/Getting and Cleaning Data/UCI HAR Dataset")
+setwd("../..")
 features = read.csv("features.txt", header=F, sep="")
 
 # Concatenating training and testing dataframes

@@ -1,8 +1,8 @@
 # Codebook
 
-## Mean Summary of Human Activity Recognition Using Smartphones Dataset
+## Mean Summary of a Dataset of Human Activity Recognition Using Smartphones
 
-This dataset is a mean summary of a dataset obtained from an experiment conducted with a smartphone on human activity 
+This dataset is a mean summary of an experimental dataset obtained with a smartphone on human activity 
 recognition. More information on the experimenta and initial analysis can be found at 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -25,5 +25,5 @@ The variable names are described with the following nomenclature
 e.g. The variable **frequency-domain_Body_gyroscope_Jerk_magnitude_mean** refers to the mean value of the magnitude of the Jerk in the frequency domain from the gyroscope for the body motion component. 
 
 ### Units
-- Accelerometer units is in .**g** which is equivalent to **9.81m/s^2**. 
+- Accelerometer units is in **g** which is equivalent to **9.81m/s^2**. 
 - Gyroscope units is **revolutions per second** or the angular velocity.
